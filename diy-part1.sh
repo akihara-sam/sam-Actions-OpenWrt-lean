@@ -14,8 +14,8 @@
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
 # Add a feed source
-echo 'src-git passwallyilai https://github.com/akihara-sam/passwall360/tree/master/package' >>feeds.conf.default
-echo 'src-git passwall360 https://github.com/akihara-sam/passwall360/tree/master/lienol' >>feeds.conf.default
+echo 'src-git passwallyilai https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
+echo 'src-git passwall360 https://github.com/akihara-sam/passwall360' >>feeds.conf.default
 echo 'src-git poweroff https://github.com/akihara-sam/luci-app-poweroff' >>feeds.conf.default
 #echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
